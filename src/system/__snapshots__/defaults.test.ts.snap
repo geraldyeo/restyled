@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`style systems (media) returns media styles between breakpoints sm and md 1`] = `
+Array [
+  "
+    @media (min-width: ",
+  "40em",
+  ") and (max-width: ",
+  "52em",
+  ") {
+      ",
+  "
+    }
+  ",
+]
+`;
+
+exports[`style systems (media) returns media styles greater than breakpoint sm 1`] = `
+Array [
+  "
+    @media (min-width: ",
+  "40em",
+  ") {
+      ",
+  "
+    }
+  ",
+]
+`;
+
+exports[`style systems (media) returns media styles less than breakpoint lg 1`] = `
+Array [
+  "
+    @media (max-width: ",
+  "64em",
+  ") {
+      ",
+  "
+    }
+  ",
+]
+`;
